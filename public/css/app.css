@@ -46,6 +46,7 @@ img {
 
 header {
   height: 80px;
+  margin-bottom: 2rem;
 }
 header .top-header {
   background-color: #0282f9;

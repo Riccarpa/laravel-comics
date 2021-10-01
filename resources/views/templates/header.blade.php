@@ -15,7 +15,7 @@
         </figure>
         <ul>
             <li class="pointer">CHARACTERS</li>
-            <li class="pointer">COMICS</li>
+            <li class="pointer"><a href="{{route('comics')}}">COMICS</a></li>
             <li class="pointer">MOVIES</li>
             <li class="pointer">TV</li>
             <li class="pointer">GAMES</li>
