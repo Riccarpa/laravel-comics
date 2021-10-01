@@ -115,3 +115,39 @@ footer section ul {
 footer section li {
   color: gray;
 }
+
+#comics {
+  background-color: black;
+  padding: 2rem 0;
+  color: white;
+}
+#comics div.container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+}
+
+.card {
+  flex-basis: 16.6666666667%;
+  color: white;
+  height: 200px;
+  padding: 10px;
+}
+.card img {
+  width: 150px;
+  height: 150px;
+}
+.card h3 {
+  margin-top: 0.5rem;
+  text-transform: uppercase;
+  font-size: 10px;
+  width: 90%;
+  color: gray;
+}

@@ -11,7 +11,7 @@
     <div class="top-header"></div>
     <div class="container">
         <figure>
-            <img class="pointer" src="images/dc-logo.png" alt="">
+            <a href="{{route('home')}}"><img class="pointer" src="images/dc-logo.png" alt=""></a>
         </figure>
         <ul>
             <li class="pointer">CHARACTERS</li>
