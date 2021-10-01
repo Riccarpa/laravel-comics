@@ -1,0 +1,42 @@
+header {
+    height: 80px;
+    .top-header {
+        background-color: $primary-color;
+        height: 25px;
+    }
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+    }
+    figure {
+        height: 80%;
+    }
+    ul {
+        display: flex;
+        height: 100%;
+
+        li {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            margin-right: 20px;
+        }
+        & li:hover {
+            border-bottom: 5px solid $primary-color;
+        }
+        li:hover a {
+            color: blue;
+        }
+    }
+    input {
+        text-align: right;
+        border: 0;
+        border-bottom: 3px solid $primary-color;
+        width: 150px;
+        &:focus-visible {
+            outline: 0;
+        }
+    }
+}

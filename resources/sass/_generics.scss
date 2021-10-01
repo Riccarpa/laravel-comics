@@ -1,0 +1,45 @@
+$primary-color: #0282f9;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+ul {
+    list-style-type: none;
+    li a {
+        text-decoration: none;
+        color: black;
+    }
+}
+
+img {
+    width: auto;
+    height: 100%;
+}
+
+.selected {
+    border-bottom: 5px solid $primary-color;
+}
+.selected2 {
+    color: $primary-color;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.bold {
+    font-weight: bold;
+}
+.uppercase {
+    text-transform: uppercase;
+    font-size: small;
+}
