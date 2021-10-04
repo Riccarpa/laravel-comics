@@ -166,10 +166,21 @@ footer section li {
   color: gray;
 }
 
-#info {
-  padding: 3rem;
+#info .cover {
+  height: 60px;
+  background-color: #0282f9;
+  position: relative;
+}
+#info .cover img {
+  height: 200px;
+  width: auto;
+  position: absolute;
+  bottom: 20px;
+  left: 15%;
+  border: 2px solid white;
 }
 #info .top {
+  padding: 3rem;
   display: flex;
 }
 #info .top h3 {
@@ -204,6 +215,30 @@ footer section li {
 }
 #info .top .col.right {
   flex-basis: 30%;
+}
+#info .bottom {
+  padding: 2rem;
+  background-color: #f6f6f6;
+}
+#info .bottom .container {
+  display: flex;
+}
+#info .bottom .col {
+  flex-basis: 50%;
+  padding: 3rem;
+}
+#info .bottom h2 {
+  margin-bottom: 2rem;
+}
+#info .bottom p {
+  flex-basis: 60%;
+  color: #0282f9;
+}
+#info .bottom .talent div,
+#info .bottom .specs div {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
 }
 
 #jumbo {
