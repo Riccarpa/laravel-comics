@@ -9,10 +9,12 @@
 <section id="comics">
     <div class="container">
         @foreach ($products as $product)
-            <div class="card">
-                <img src="{{$product['thumb']}}" alt="">
-                <h3>{{$product['series']}}</h3>
-            </div>
+            <a href="{{route('comics-info',['id'=>$loop->index])}}">
+                <div class="card">
+                    <img src="{{$product['thumb']}}" alt="">
+                    <h3>{{$product['series']}}</h3>
+                </div>
+            </a>
         @endforeach
     </div>
 </section>

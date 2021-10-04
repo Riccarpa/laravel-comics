@@ -94,7 +94,6 @@ footer {
   align-items: center;
   justify-content: space-around;
   overflow: hidden;
-  margin-top: 2rem;
 }
 footer img {
   opacity: 0.6;
@@ -131,6 +130,11 @@ footer section li {
 }
 
 h1 {
+  color: white;
+}
+
+a {
+  text-decoration: none;
   color: white;
 }
 
