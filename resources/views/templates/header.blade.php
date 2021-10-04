@@ -6,7 +6,7 @@
         </figure>
         <ul>
             <li class="pointer">CHARACTERS</li>
-            <li class="pointer"><a href="{{route('comics')}}">COMICS</a></li>
+            <li class="pointer {{ (request()->is('comics')) ? 'active' : '' }} "><a href="{{route('comics')}}">COMICS</a></li>
             <li class="pointer">MOVIES</li>
             <li class="pointer">TV</li>
             <li class="pointer">GAMES</li>

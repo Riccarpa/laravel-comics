@@ -82,6 +82,9 @@ header input {
 header input:focus-visible {
   outline: 0;
 }
+header .active {
+  border-bottom: 5px solid #0282f9;
+}
 
 footer {
   height: 300px;

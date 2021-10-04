@@ -44,4 +44,4 @@
     </div>
 
   </section>
-<img src="images/dc-logo.png" alt="">
+<img src="../images/dc-logo.png" alt="">
