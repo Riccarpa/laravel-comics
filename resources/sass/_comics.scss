@@ -1,8 +1,19 @@
 #comics {
+    position: relative;
     background-color: black;
     padding: 2rem 0;
     color: white;
-
+    .current-series {
+        background-color: $primary-color;
+        width: fit-content;
+        padding: 0.7rem;
+        color: white;
+        font-weight: bold;
+        font-size: 1.2rem;
+        position: absolute;
+        bottom: 95%;
+        left: 10%;
+    }
     div.container {
         height: 100%;
         display: flex;
@@ -11,28 +22,28 @@
         flex-wrap: wrap;
         align-items: center;
     }
-}
-h1 {
-    color: white;
-}
-a {
-    text-decoration: none;
-    color: white;
-}
-.card {
-    flex-basis: calc(100% / 6);
-    color: white;
-    height: 200px;
-    padding: 10px;
-    img {
-        width: 150px;
-        height: 150px;
+    h1 {
+        color: white;
     }
-    h3 {
-        margin-top: 0.5rem;
-        text-transform: uppercase;
-        font-size: 10px;
-        width: 90%;
-        color: gray;
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    .card {
+        flex-basis: calc(100% / 6);
+        color: white;
+        height: 200px;
+        padding: 10px;
+        img {
+            width: 150px;
+            height: 150px;
+        }
+        h3 {
+            margin-top: 0.5rem;
+            text-transform: uppercase;
+            font-size: 10px;
+            max-width: 150px;
+            color: gray;
+        }
     }
 }

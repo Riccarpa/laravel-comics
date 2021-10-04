@@ -7,6 +7,7 @@
 @section('content')
    
 <section id="comics">
+    <div class="current-series">CURRENT SERIES</div>
     <div class="container">
         @foreach ($products as $product)
             <a href="{{route('comics-info',['id'=>$loop->index])}}">

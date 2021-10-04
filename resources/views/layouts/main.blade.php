@@ -14,7 +14,7 @@
         @include('templates.header')
     </header>
     <main>
-        
+       @include('templates.jumbotron')
        @yield('content')
     </main>
     <footer>

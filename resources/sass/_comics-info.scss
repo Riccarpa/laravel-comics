@@ -1,2 +1,39 @@
 #info {
+    padding: 3rem;
+    .top {
+        display: flex;
+        h3 {
+            color: darkblue;
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+        }
+        .col.left {
+            flex-basis: 70%;
+            padding: 0 2rem;
+            .table {
+                display: flex;
+                align-items: center;
+                background-color: rgb(4, 167, 4);
+                color: white;
+                height: 40px;
+                border: 1px solid black;
+                margin-bottom: 1rem;
+                div {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    flex-basis: 70%;
+                    padding: 0 2rem;
+                    height: 100%;
+                    border-right: 1px solid black;
+                }
+                .check {
+                    padding: 0 2rem;
+                }
+            }
+        }
+        .col.right {
+            flex-basis: 30%;
+        }
+    }
 }
